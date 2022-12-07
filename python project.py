@@ -19,7 +19,7 @@ import random
 when = ['A few years ago', 'Yesterday','Last night', 'A long time ago']
 
 
-Adjective = ["rich","greed","harsh","grubby"]
+Adjective = ["rich","honest","good","best"]
 # here we use Adjective
 
 friends = ['Praveen', 'Manas','Aayush', 'Binod']
@@ -61,7 +61,7 @@ the selected items to generate sentences for the story."""
 
 #random.choice() is a function in random module which randomly select a list element from list.
 
-print(random.choice(when) + ', ' +"me and my "+ random.choice(Adjective)+" friend " +random.choice(friends)+" "+random.choice(age)+
+print(random.choice(when) + ', ' +"I and my "+ random.choice(Adjective)+" friend " +random.choice(friends)+" "+random.choice(age)+
       ' that lived in ' +random.choice(residence)+"."+ 'decided to go the'+" " +random.choice(sports_noun)+" "+'game in'+" "
       + random.choice(city_name)+"."+"We really wanted to see the" +" "+random.choice(noun)+" "+" play the "+random.choice(noun)+"."+
       "so,we"+" "+random.choice(Action_verb)+" "+"our"+" "+random.choice(noun)+" "+"down to the"+" "+random.choice(proper_noun)+" "
